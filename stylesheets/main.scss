@@ -31,4 +31,14 @@ body {
 
 .Splash-description {
   margin: 0;
+
+  br {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .Splash-description br {
+    display: inline;
+  }
 }
