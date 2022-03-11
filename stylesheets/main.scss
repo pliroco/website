@@ -8,19 +8,24 @@ body {
   color: #333;
 }
 
-.Splash {
+.Wrapper {
   position: relative;
   height: 100vh;
   text-align: center;
 }
 
-.Splash-inner {
+.Splash {
   position: absolute;
   box-sizing: border-box;
   width: 100%;
   top: 50%;
-  padding: 20px;
   transform: translateY(-50%);
+}
+
+.Splash-inner {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
 }
 
 .Splash-heading {
