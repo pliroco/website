@@ -1,6 +1,9 @@
 ---
 ---
 
+html {
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,22 +12,18 @@ body {
 }
 
 .Wrapper {
-  position: relative;
   height: 100vh;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .Splash {
-  position: absolute;
-  box-sizing: border-box;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
 }
 
 .Splash-inner {
-  margin: 0 auto;
-  max-width: 500px;
   padding: 20px;
 }
 
